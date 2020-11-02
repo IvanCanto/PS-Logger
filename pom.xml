@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.singular.punto</groupId>
+    <groupId>com.puntosingular.soluciones</groupId>
     <artifactId>ps-logger</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.4</version>
     <packaging>mule-extension</packaging>
     <name>PS-Logger Extension</name>
 
@@ -22,6 +22,11 @@
         	<artifactId>mysql-connector-java</artifactId>
         	<version>5.1.49</version>
         </dependency>
+        <dependency>
+    		<groupId>com.google.code.gson</groupId>
+    		<artifactId>gson</artifactId>
+    		<version>2.8.0</version>
+		</dependency>
 	</dependencies>
 
 </project>

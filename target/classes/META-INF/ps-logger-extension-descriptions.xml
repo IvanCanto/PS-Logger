@@ -39,7 +39,7 @@
         </connection>
     </connections>
     <extension name="PS-Logger">
-        <description><![CDATA[This is the main class of an extension, is the entry point from which configurations, connection providers, operations and sources are going to be declared.]]></description>
+        <description><![CDATA[]]></description>
         <parameters/>
     </extension>
     <operations>
@@ -70,7 +70,13 @@
                 <parameter name="targetSystem">
                     <description><![CDATA[]]></description>
                 </parameter>
-                <parameter name="metas">
+                <parameter name="statusCode">
+                    <description><![CDATA[]]></description>
+                </parameter>
+                <parameter name="type">
+                    <description><![CDATA[]]></description>
+                </parameter>
+                <parameter name="detail">
                     <description><![CDATA[]]></description>
                 </parameter>
                 <parameter name="outputMimeType">

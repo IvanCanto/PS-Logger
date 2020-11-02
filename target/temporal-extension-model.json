@@ -1,14 +1,14 @@
 {
   "name": "PS-Logger",
-  "description": "This is the main class of an extension, is the entry point from which configurations, connection providers, operations and sources are going to be declared.",
-  "version": "1.1.0",
+  "description": "",
+  "version": "1.1.4",
   "vendor": "Mulesoft",
   "category": "COMMUNITY",
   "xmlDsl": {
     "prefix": "PS-Logger",
     "namespace": "http://www.mulesoft.org/schema/mule/PS-Logger",
     "schemaLocation": "http://www.mulesoft.org/schema/mule/PS-Logger/current/mule-PS-Logger.xsd",
-    "schemaVersion": "1.1.0",
+    "schemaVersion": "1.1.4",
     "xsdFileName": "mule-PS-Logger.xsd"
   },
   "resources": [],
@@ -440,7 +440,59 @@
                     "order": 9
                   },
                   "allowedStereotypeModels": [],
-                  "name": "metas",
+                  "name": "statusCode",
+                  "description": "",
+                  "modelProperties": {}
+                },
+                {
+                  "type": {
+                    "format": "java",
+                    "type": "String"
+                  },
+                  "hasDynamicType": false,
+                  "required": true,
+                  "isConfigOverride": false,
+                  "expressionSupport": "SUPPORTED",
+                  "role": "BEHAVIOUR",
+                  "dslConfiguration": {
+                    "allowsInlineDefinition": true,
+                    "allowsReferences": true,
+                    "allowTopLevelDefinition": false
+                  },
+                  "layoutModel": {
+                    "password": false,
+                    "text": false,
+                    "query": false,
+                    "order": 10
+                  },
+                  "allowedStereotypeModels": [],
+                  "name": "type",
+                  "description": "",
+                  "modelProperties": {}
+                },
+                {
+                  "type": {
+                    "format": "java",
+                    "type": "String"
+                  },
+                  "hasDynamicType": false,
+                  "required": true,
+                  "isConfigOverride": false,
+                  "expressionSupport": "SUPPORTED",
+                  "role": "BEHAVIOUR",
+                  "dslConfiguration": {
+                    "allowsInlineDefinition": true,
+                    "allowsReferences": true,
+                    "allowTopLevelDefinition": false
+                  },
+                  "layoutModel": {
+                    "password": false,
+                    "text": false,
+                    "query": false,
+                    "order": 11
+                  },
+                  "allowedStereotypeModels": [],
+                  "name": "detail",
                   "description": "",
                   "modelProperties": {}
                 },
@@ -463,7 +515,7 @@
                     "password": false,
                     "text": false,
                     "query": false,
-                    "order": 10,
+                    "order": 12,
                     "tabName": "Advanced"
                   },
                   "allowedStereotypeModels": [],
@@ -505,7 +557,7 @@
                     "password": false,
                     "text": false,
                     "query": false,
-                    "order": 11,
+                    "order": 13,
                     "tabName": "Advanced"
                   },
                   "allowedStereotypeModels": [],
@@ -536,7 +588,7 @@
                     "password": false,
                     "text": false,
                     "query": false,
-                    "order": 12,
+                    "order": 14,
                     "tabName": "Advanced"
                   },
                   "allowedStereotypeModels": [],
@@ -681,7 +733,7 @@
                     "password": false,
                     "text": false,
                     "query": false,
-                    "order": 13,
+                    "order": 15,
                     "tabName": "Advanced"
                   },
                   "allowedStereotypeModels": [],
